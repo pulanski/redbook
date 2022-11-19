@@ -1886,6 +1886,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime-corejs3@npm:7.19.4":
+  version: 7.19.4
+  resolution: "@babel/runtime-corejs3@npm:7.19.4"
+  dependencies:
+    core-js-pure: ^3.25.1
+    regenerator-runtime: ^0.13.4
+  checksum: 01b55c54c4b649d4897f873982ee0097b1f9d597b62a97491c5ca4b0e659bf9576914d00b2cd6d140f19497a8f5ace6efdb958eff123ffa499c422f338946deb
+  languageName: node
+  linkType: hard
+
 "@babel/runtime-corejs3@npm:^7.10.2":
   version: 7.18.3
   resolution: "@babel/runtime-corejs3@npm:7.18.3"
@@ -4507,6 +4517,16 @@ __metadata:
     "@babel/runtime-corejs3": 7.16.7
     core-js: 3.22.5
   checksum: 31ad16ffe21b71754bbdb93658ccda45981965e69879f740da2dc7d9a1dd96763090b06104bd4b7797ec21a775344b4b0c6bd0c6783733d14663d9bcecb37354
+  languageName: node
+  linkType: hard
+
+"@redwoodjs/auth@npm:3.4.0":
+  version: 3.4.0
+  resolution: "@redwoodjs/auth@npm:3.4.0"
+  dependencies:
+    "@babel/runtime-corejs3": 7.19.4
+    core-js: 3.25.5
+  checksum: 581b60ef246e83e869c7cee1b20141a623923b3014a43db0423a8d666cb2d97deaf2dac81fc98d5bf13a6eb484ed87c4c3367ea1830f11808501c423baec250d
   languageName: node
   linkType: hard
 
@@ -12587,10 +12607,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"core-js-pure@npm:^3.25.1":
+  version: 3.26.1
+  resolution: "core-js-pure@npm:3.26.1"
+  checksum: a58ec9bfc88b87d39a31c099a4701cb44a2b0856b182630341fe12a9170e60c087345e566b52479f5111349ae6eb52a74926bfee5d6553dfd15cb5a161470e57
+  languageName: node
+  linkType: hard
+
 "core-js@npm:3.22.5":
   version: 3.22.5
   resolution: "core-js@npm:3.22.5"
   checksum: edabca2183444c36e3fb66aabeab42a59468628af45a6926ec7b254723a0ef0ae22da683849f48a9a59d72d4ff04ead953ee8dff919d233e1773a3fded7fbd34
+  languageName: node
+  linkType: hard
+
+"core-js@npm:3.25.5":
+  version: 3.25.5
+  resolution: "core-js@npm:3.25.5"
+  checksum: 4b94b271f924cecf98fa5b1031c0109c9da2ff97a3d4df83465be9e90c3bf0b32a0bed98bb6a3c3aaa8951109c6fb9b3111fbe77a7036e075619c5a40a79dfbf
   languageName: node
   linkType: hard
 
@@ -32209,7 +32243,7 @@ __metadata:
     "@mantine/notifications": ^4.2.9
     "@mantine/prism": ^4.2.9
     "@mantine/spotlight": ^4.2.9
-    "@redwoodjs/auth": 1.5.2
+    "@redwoodjs/auth": 3.4.0
     "@redwoodjs/forms": 1.5.2
     "@redwoodjs/router": 1.5.2
     "@redwoodjs/web": 1.5.2
